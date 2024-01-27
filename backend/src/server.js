@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(
   cors({
   
-    origin: ['https://food-order-api-kdoj.onrender.com'],
+    origin: "https://food-order-api-kdoj.onrender.com"
   })
 );
 
