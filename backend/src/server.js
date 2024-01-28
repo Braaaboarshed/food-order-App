@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(
   cors({
   
-    origin: "https://food-order-app22.netlify.app"
+    origin: "http://localhost:3000"
   })
 );
 
